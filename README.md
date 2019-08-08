@@ -12,6 +12,8 @@ Algorithm for generating:
 
 This takes anywhere from 0.1 seconds to 5 seconds.
 
+[Executable](http://odde.ml)
+
 
 ### Screenshots:
 <img src = "https://github.com/oddek/Sudoku/blob/master/Sudoku/img/sudo2.png" width ="50%"> <img src = "https://github.com/oddek/Sudoku/blob/master/Sudoku/img/sudo3.png" width ="50%"> <img src = "https://github.com/oddek/Sudoku/blob/master/Sudoku/img/sudo4.png" width ="50%">
