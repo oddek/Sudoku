@@ -1,6 +1,6 @@
 # Sudoku
 
-<img src = "https://github.com/oddek/Generic-Platformer/blob/master/Platformer/img/screenshots/ex1.png" width ="50%">
+<img src = "https://github.com/oddek/Sudoku/blob/master/Sudoku/img/sudo1.png" width ="50%">
 
 Sudoku generator and solver made with c++ and sfml
 
@@ -12,7 +12,7 @@ Algorithm for generating:
 
 
 ### Screenshots:
-<img src = "https://github.com/oddek/Generic-Platformer/blob/master/Platformer/img/screenshots/ex2.png" width ="50%"> <img src = "https://github.com/oddek/Generic-Platformer/blob/master/Platformer/img/screenshots/ex3.png" width ="50%"> <img src = "https://github.com/oddek/Generic-Platformer/blob/master/Platformer/img/screenshots/ex4.png" width ="50%">
+<img src = "https://github.com/oddek/Sudoku/blob/master/Sudoku/img/sudo2.png" width ="50%"> <img src = "https://github.com/oddek/Sudoku/blob/master/Sudoku/img/sudo3.png" width ="50%"> <img src = "https://github.com/oddek/Sudoku/blob/master/Sudoku/img/sudo4.png" width ="50%">
 
 
 ### Kent Odde, August 2019
