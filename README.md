@@ -10,7 +10,7 @@ Algorithm for generating:
 1. Fill valid sudoku grid.
 2. Then for each number in grid (random order), remove it, check if sudoku has more than one solution, if true: insert number back in.
 
-This takes anywhere from 0.1 seconds to 3-4 seconds.
+This takes anywhere from 0.1 seconds to 5 seconds.
 
 
 ### Screenshots:
