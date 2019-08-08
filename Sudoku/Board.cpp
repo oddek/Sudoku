@@ -290,7 +290,7 @@ void Board::remove_numbers()
 		if (!equal_sol(&v1, &v2))
 		{
 			grid[p.first][p.second] = temp;
-			std::cout << "returned TRUE, inserting temp back in!" << std::endl;
+			//std::cout << "returned TRUE, inserting temp back in!" << std::endl;
 		}
 		else
 		{
@@ -298,7 +298,7 @@ void Board::remove_numbers()
 
 		}
 		
-		std::cout << "queue: " << q.size() << std::endl;
+		//std::cout << "queue: " << q.size() << std::endl;
 	}
 }
 
@@ -386,7 +386,7 @@ bool Board::handle_click(sf::RenderWindow& window, sf::Vector2i pos)
 				clicked_square = &squares[i][j];
 				clicked_square->setFillColor(rh->chosen_square_color);
 
-				std::cout << "CLicked square: " << clicked_square->correct_number << " Locked: " << clicked_square->locked << " " << i << " " << j << std::endl;
+				//std::cout << "CLicked square: " << clicked_square->correct_number << " Locked: " << clicked_square->locked << " " << i << " " << j << std::endl;
 
 				return true;
 			}
@@ -434,7 +434,7 @@ bool Board::solve()
 		}
 		else
 		{
-			std::cout << "No sol" << std::endl;
+			//std::cout << "No sol" << std::endl;
 			return false;
 		}
 	}

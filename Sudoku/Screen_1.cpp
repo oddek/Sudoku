@@ -28,7 +28,7 @@ int Screen_1::Run(sf::RenderWindow& window)
 			if (event.type == sf::Event::Closed)
 			{
 				window.close();
-				return -1;
+				return 0;
 			}
 			if(event.type == sf::Event::MouseButtonPressed)
 				if (event.key.code == sf::Mouse::Left)

@@ -19,7 +19,7 @@ Legg til "vinnerskjerm" ved komplett utfylt sudoku.
 
 int main()
 {
-	//ShowWindow(GetConsoleWindow(), SW_HIDE);
+	ShowWindow(GetConsoleWindow(), SW_HIDE);
 
 	ResourceHolder* rh = new ResourceHolder();
 	sf::RenderWindow window(sf::VideoMode(1600, 1200), "Sudoku");
@@ -33,7 +33,7 @@ int main()
 	while (screen <= 0)
 	{
 		screen = Screens[screen]->Run(window);
-
+		if (screen == 0) break;
 		if (screen == 2)
 		{
 			delete Screens[0];
